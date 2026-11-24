@@ -1052,8 +1052,8 @@
                         <circle cx="187.5" cy="150" r="22" fill="#fde68a" opacity="0.5"/>
                         <circle cx="240" cy="165" r="18" fill="#fef3c7" opacity="0.4"/>
                     </svg>
-                    <!-- 実画像 (image_de2203.jpg等) -->
-                    <img id="win-hero-img" src="image_de2203.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" onerror="this.style.display='none';" />
+                    <!-- 実画像用プレースホルダー（画像未設定時は上のSVGを表示） -->
+                    <img id="win-hero-img" alt="" class="absolute inset-0 w-full h-full object-cover" style="display: none;" onerror="this.style.display='none';" />
                 </div>
 
                 <!-- 詳細テキスト＆コンテンツエリア -->
@@ -2013,7 +2013,6 @@
                 sponsor: "提供：日本航空（「ファンタジーランド・フォレストシアター」を提供）",
                 duration: "約25分",
                 gradient: "linear-gradient(135deg, #b45309 0%, #78350f 100%)",
-                image: "image_de2203.jpg",
                 schedule: ["10:50", "12:15", "13:40", "15:45", "17:10"],
                 slotNote: "",
                 generalNotes: [
