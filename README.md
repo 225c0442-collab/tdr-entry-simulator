@@ -4,7 +4,8 @@
 
 ## デモ
 
-- http://class.tama.net/~p225C0442/cafe-map/tdr-entry-simulator/
+- GitHub Pages: https://225c0442-collab.github.io/tdr-entry-simulator/
+- 学科サーバー: https://class.tama.net/~p225C0442/cafe-map/tdr-entry-simulator/
 
 ## 特徴
 
